@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -8,12 +7,8 @@ class App extends Component {
     this.state = {
       picture: [],
     };
-    this.updateState = this.updateState.bind(this);
-  };
-
-  updateState() {
-    this.setState(console.log("picture"))
   }
+
 
   componentDidMount() {
     fetch("https://dog.ceo/api/breeds/image/random")
