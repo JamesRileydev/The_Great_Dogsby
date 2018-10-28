@@ -39,7 +39,7 @@ class App extends Component {
             </div>
           </div>
           <button className="Refresh-btn" onClick={() => this.componentDidMount()}>
-            CLICK FOR NEW DOG PIC
+            NEXT PICTURE
           </button>
         </section>
       </div>

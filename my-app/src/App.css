@@ -5,13 +5,12 @@
 .Header {
   background-color: #667292;
   color: #fff;
+  margin-bottom: 50px;
 }
 
 .App-main {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  justify-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -23,12 +22,14 @@
 .Refresh-btn {
   margin-top: 20px;
   height: 40px;
+  width: 200px;
   border: none;
   outline: none;
   border-radius: 20px;
   padding: 10px;
   background-color: #667292;
   color: #fff;
+  font-size: 15px
 
 }
 
